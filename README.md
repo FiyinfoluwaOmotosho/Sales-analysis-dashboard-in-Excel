@@ -17,4 +17,13 @@ Which sales reps, regions and product categories brought in the most?
 This dataset was gotten from Kaggle
 [Download here](https://www.kaggle.com/).
 The data was formatted as an Excel Table named SalesData. It has 1,000 rows and 14 columns. Sale dates run from 1 January 2023 to 1 January 2024. 997 rows fall in 2023 and 3 are dated 1 January 2024.
-[Dataset](<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/43041d60-f2d2-4fb5-9705-11fe13ce3cdb" />)
+
+## Dataset Preview
+<img width="1920" height="1080" alt="Screenshot 2026-11-18 014104" src="https://github.com/user-attachments/assets/6e119e08-38d9-46e5-9d77-616c313be3b5" />
+
+# Data preparation
+- Converted the range to an Excel Table (Table1) so formulas and pivot tables read from one named source and pick up new rows.
+- Checked every column for blanks and the whole table for duplicate rows. None were found.
+- Checked that Revenue equals Quantity_Sold x Unit_Price on every row.
+- Grouped Sale_Date by month and year inside the pivot table to get the monthly trend.
+- Built the pivot tables from Table1 on a separate Tables sheet, then linked the charts to them.
