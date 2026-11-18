@@ -41,3 +41,7 @@ The analysis sits on the Tables sheet. It has seven pivot tables, all built from
 ## PivotTable Preview
 <img width="1420" height="625" alt="Screenshot 2026-11-18 014018" src="https://github.com/user-attachments/assets/5441420e-f716-45cb-b3a6-c6d5a2ea13ad" />
 
+# Dashboard
+The left panel holds the logo, three navigation buttons (Dashboard, Analysis, Database) and slicers for Product_Category, Region and Sales_Rep. The header sits at the top, with the four KPI cards underneath and the seven charts below them. The layout is built from rounded rectangles, icons and text boxes placed over the Dashboard sheet, with a blue and black colour scheme
+## Dashboard Preview
+<img width="1553" height="747" alt="Screenshot 2026-11-18 014719" src="https://github.com/user-attachments/assets/96854701-6711-4141-aa68-29c9ae42d81f" />
