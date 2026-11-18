@@ -27,3 +27,14 @@ The data was formatted as an Excel Table named SalesData. It has 1,000 rows and 
 - Checked that Revenue equals Quantity_Sold x Unit_Price on every row.
 - Grouped Sale_Date by month and year inside the pivot table to get the monthly trend.
 - Built the pivot tables from Table1 on a separate Tables sheet, then linked the charts to them.
+
+# KPIs (Key Performance Indicator) 
+- Total revenue	$70,329,941: Sum of Revenue, taken from the pivot table grand total
+- Total units sold	25,355:	Sum of Quantity_Sold, taken from the pivot table grand total
+- Gross profit	$6,487,847	=SUMPRODUCT(Table1[Quantity_Sold],Table1[Unit_Price])-SUMPRODUCT(Table1[Quantity_Sold],Table1[Unit_Cost])
+- Average discount	15%	=AVERAGE(Table1[Discount]) (15.24% before rounding)
+  
+Gross profit here is 9.2% of revenue. It is worked out at list price, before any discount is taken off. The profitability section below shows what happens once discounts are included
+
+# Pivot Tables
+
