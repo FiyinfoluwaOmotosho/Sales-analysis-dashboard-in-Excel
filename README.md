@@ -37,4 +37,7 @@ The data was formatted as an Excel Table named SalesData. It has 1,000 rows and 
 Gross profit here is 9.2% of revenue. It is worked out at list price, before any discount is taken off. The profitability section below shows what happens once discounts are included
 
 # Pivot Tables
+The analysis sits on the Tables sheet. It has seven pivot tables, all built from SalesData, and each one feeds one chart on the dashboard. Each pivot table groups the 1,000 transactions by one field, such as sales rep, region or month, and totals, counts or averages one measure for each group. Changing a slicer on the dashboard filters the pivot tables, and the charts update with them
+## PivotTable Preview
+<img width="1420" height="625" alt="Screenshot 2026-11-18 014018" src="https://github.com/user-attachments/assets/5441420e-f716-45cb-b3a6-c6d5a2ea13ad" />
 
