@@ -1,4 +1,4 @@
-# Sales-analysis-dashboard-in-Excel
+# Sales Performance Analysis Dashboard in Excel
 An Excel-only sales analysis project. It takes 1,000 sales transactions from 2023, summarises them with seven pivot tables, and presents the results in an interactive dashboard with four KPI cards, seven charts and three slicers. No code or outside tools were used for the dashboard.
 
 Sales analysis dashboard
